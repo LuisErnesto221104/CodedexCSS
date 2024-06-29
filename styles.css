@@ -1,0 +1,86 @@
+.Titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: cadetblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+body{
+    background-image: url('https://get.wallhere.com/photo/manga-Oyasumi-Punpun-monochrome-Punpun-Onodera-simple-background-1355103.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.TextoPerfil{
+    font-size: 15px;
+    font-weight: bold;
+    color: darkcyan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.Datos {
+    font-size: 15px;
+    font-weight: bold;
+    color: darkviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.TituloTxt{
+    width: 200px;
+    height: auto;
+    color: rosybrown;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.TituloAcerca, .TituloInfo,.TituloProyectos{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkslateblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.CajaProyectos{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    justify-content: left;
+    max-width: 70%;
+}
+
+.Caja{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    width: 200px;
+}
+
+.Caja img{
+    width: 200px;
+    height: 100px;
+}
+
+.PiePagina{
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    position: relative;
+}
